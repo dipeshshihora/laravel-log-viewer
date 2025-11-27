@@ -1,0 +1,44 @@
+{
+  "name": "dipeshshihora/laravel-log-viewer",
+  "description": "Simple Laravel log viewer.",
+  "keywords": [
+    "log",
+    "log-reader",
+    "log-viewer",
+    "logging",
+    "laravel",
+    "lumen"
+  ],
+  "type": "laravel-package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dipesh Shihora",
+      "email": "dipeshshihora@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2|^8.0",
+    "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dipesh\\LaravelLogViewer\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Dipesh\\LaravelLogViewer\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Dipesh\\LaravelLogViewer\\LaravelLogViewerServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
+
